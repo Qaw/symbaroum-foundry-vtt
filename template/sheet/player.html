@@ -20,9 +20,9 @@
                         <label>{{localize "BIO.RACE"}}</label>
                         <input name="data.bio.race" type="text" value="{{data.bio.race}}"/>
                     </div>
-                    <div class="quote">
-                        <label>{{localize "BIO.QUOTE"}}</label>
-                        <input name="data.bio.quote" type="text" value="{{data.bio.quote}}"/>
+                    <div class="experience">
+                        <label>{{localize "BIO.EXPERIENCE"}}</label>
+                        <input name="data.experience.total" type="number" value="{{data.experience.total}}" data-dtype="Number" />
                     </div>
                 </div>
                 <div class="wrapper-row">
@@ -30,10 +30,15 @@
                         <label>{{localize "BIO.OCCUPATION"}}</label>
                         <input name="data.bio.occupation" type="text" value="{{data.bio.occupation}}"/>
                     </div>
-                    <div class="experience">
-                        <label>{{localize "EXPERIENCE"}}</label>
-                        <input style="flex-basis: 50%" name="data.experience.current" type="number" value="{{data.experience.current}}" data-dtype="Number" />
-                        <input style="flex-basis: 50%" name="data.experience.total" type="number" value="{{data.experience.total}}" data-dtype="Number" />
+                    <div class="unspentexperience">
+                        <label>{{localize "BIO.UNSPENTEXPERIENCE"}}</label>
+                        <input name="data.experience.current" type="number" value="{{data.experience.current}}" data-dtype="Number" />
+                    </div>
+                </div>
+                <div class="wrapper-row">
+                    <div class="quote">
+                        <label>{{localize "BIO.QUOTE"}}</label>
+                        <input name="data.bio.quote" type="text" value="{{data.bio.quote}}"/>
                     </div>
                 </div>
             </div>

@@ -10,7 +10,7 @@
     display: flex;
     flex-direction: row;
     flex-basis: 100%;
-    margin: 5px;
+    margin: 0 5px 0 5px;
 }
 
 .symbaroum.sheet.actor .player .sheet-header .avatar {
@@ -58,12 +58,19 @@
 }
 
 .symbaroum.sheet.actor .player .sheet-header .shadow,
-.symbaroum.sheet.actor .player .sheet-header .quote,
-.symbaroum.sheet.actor .player .sheet-header .experience {
+.symbaroum.sheet.actor .player .sheet-header .experience,
+.symbaroum.sheet.actor .player .sheet-header .unspentexperience {
     display: flex;
     flex-direction: row;
     flex-basis: calc(50% - 5px);
     margin-left: 5px;
+    white-space: nowrap;
+}
+
+.symbaroum.sheet.actor .player .sheet-header .quote {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
 }
 
 .symbaroum.sheet.actor .player .sheet-tabs {
@@ -73,7 +80,7 @@
     flex-basis: 100%;
     font-size: 18px;
     margin: 5px;
-    padding: 5px;
+    padding: 3px;
     background: url(../../asset/image/title.jpg) repeat;
     font-family: var(--font-text);
 }
@@ -94,5 +101,5 @@
 
 .symbaroum.sheet.actor .player .sheet-body {
     flex-basis: 100%;
-    margin: 5px;
+    margin: 0 5px 0 5px;
 }

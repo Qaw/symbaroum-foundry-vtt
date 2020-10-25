@@ -11,7 +11,7 @@
 }
 
 .symbaroum.sheet.actor .border {
-    border: 10px solid transparent;
+    border: 5px solid transparent;
     border-image: url(../../asset/image/title.jpg) 20/10px round;
 }
 
